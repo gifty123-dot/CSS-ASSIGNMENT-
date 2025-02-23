@@ -1,0 +1,28 @@
+body{
+    background: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 19px;
+}
+.pink-box{
+    background: palevioletred;
+    position: relative;
+    bottom: 56px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+
+}
+.white-box{
+    background: white;
+    padding: 31px;
+    width: 417px;
+    height:181px;
+    border-radius:10px;
+}
+.group{
+    position: relative;
+    top: -43px;
+}
