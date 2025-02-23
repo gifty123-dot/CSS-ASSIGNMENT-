@@ -1,0 +1,26 @@
+body{
+    background: #9D7BB0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.top{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.matnum{
+    text-align: center;
+    font-style: italic;
+}
+.addtext{
+    text-align: center;
+    font-style: italic;
+}
+.design{
+        display: flex;
+        flex-direction: row;
+        gap: 10px; /* adds space between items */
+}
