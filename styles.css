@@ -10,14 +10,17 @@ body{
     font-weight: bold;
     font-size: 24px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .matnum{
     text-align: center;
     font-style: italic;
+    margin-bottom: 20px;
 }
 .addtext{
     text-align: center;
     font-style: italic;
+    margin-bottom: 20px ;
 }
 .design{
         display: flex;
