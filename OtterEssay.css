@@ -1,0 +1,88 @@
+body{
+    background-color:#3C3C3C;
+    font-family: 'Poppins';
+    padding-top: 20%;
+    padding-left: 35%;
+}
+.box{
+    background-color: #F5F5F0;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    border-radius: 10px;
+    width: 30vw;
+}
+p{
+    width: 25.6vw;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+._head{
+    position: relative;
+    bottom: 15px;
+    left:  0.5%;
+    background-color: #A05262;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    width: 25vw;
+    border-radius: 5px;
+}
+@media only  screen and (min-width: 320px) and (max-width:600px) {
+    body {
+        padding-left: 3%;
+        padding-top: 21%;
+    }
+    
+    .box {
+        width: 75vw;
+        padding-left: 11px;
+    }
+    
+    p {
+        width: 70vw;
+        padding-right: 20px;
+    }
+    
+    ._head {
+        width: 55vw;
+        font-size: 1.2rem;
+        padding: 15px;
+        left: 6.5%;
+        bottom: 15px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:1024px){
+    body {
+        padding-left: 14%;
+        padding-top: 15%;
+    }
+    
+    .box {
+        width: 55vw;
+        padding-left: 15px;
+        padding-bottom: 17px;
+    }
+    
+    p {
+        width: 45vw;
+        padding-left: 30px;
+    }
+    
+    ._head {
+        width: 43vw;
+        font-size: 1.5rem;
+        left: 3.5%;  
+    }
+}
+@media only screen and (min-width: 2560px){
+    .box{
+        width: 20vw;
+    }
+    p{
+        width: 17.6vw;
+    }
+    ._head{
+        width: 17vw;
+    }
+}
